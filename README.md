@@ -2,12 +2,12 @@
 
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-message-artax.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-artax)
-[![Build Status](https://img.shields.io/travis/yoyaeArtax/bitcore-message-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyaeArtax/bitcore-message-artax)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-artax.svg?style=flat-square)](https://coveralls.io/r/yoyaeArtax/bitcore-message-artax?branch=master)
+[![Build Status](https://img.shields.io/travis/artaxYoyae/bitcore-message-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/artaxYoyae/bitcore-message-artax)
+[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-artax.svg?style=flat-square)](https://coveralls.io/r/artaxYoyae/bitcore-message-artax?branch=master)
 
 bitcore-message-artax adds support for verifying and signing artax messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main bitcore-artax repo](https://github.com/yoyaeArtax/bitcore-artax) for more information.
+See [the main bitcore-artax repo](https://github.com/artaxYoyae/bitcore-artax) for more information.
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/yoyaeArtax/bitcore-artax/blob/master/CONTRIBUTING.md) on the main bitcore-artax repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/artaxYoyae/bitcore-artax/blob/master/CONTRIBUTING.md) on the main bitcore-artax repo for information about how to contribute.
 
 ## License
 

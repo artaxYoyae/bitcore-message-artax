@@ -2,7 +2,7 @@
   "name": "bitcore-message-artax",
   "main": "./bitcore-message.min.js",
   "version": "1.0.4",
-  "homepage": "https://github.com/yoyaeArtax/bitcore-message-artax",
+  "homepage": "https://github.com/artaxYoyae/bitcore-message-artax",
   "authors": [
     "BitPay"
   ],
