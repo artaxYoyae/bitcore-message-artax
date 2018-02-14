@@ -1,29 +1,29 @@
-# Dash Message Verification and Signing for Bitcore-Dash
+# Artax Message Verification and Signing for Bitcore-Artax
 
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-message-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-message-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-message-dash)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-message-dash?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-message-artax.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-artax)
+[![Build Status](https://img.shields.io/travis/yoyaeArtax/bitcore-message-artax.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyaeArtax/bitcore-message-artax)
+[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-artax.svg?style=flat-square)](https://coveralls.io/r/yoyaeArtax/bitcore-message-artax?branch=master)
 
-bitcore-message-dash adds support for verifying and signing dash messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-artax adds support for verifying and signing artax messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main bitcore-dash repo](https://github.com/dashpay/bitcore-dash) for more information.
+See [the main bitcore-artax repo](https://github.com/yoyaeArtax/bitcore-artax) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message-dash
+npm install bitcore-message-artax
 ```
 
 ```sh
-bower install bitcore-message-dash
+bower install bitcore-message-artax
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-dash');
-var Message = require('bitcore-message-dash');
+var bitcore = require('bitcore-lib-artax');
+var Message = require('bitcore-message-artax');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -39,7 +39,7 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dashpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/yoyaeArtax/bitcore-artax/blob/master/CONTRIBUTING.md) on the main bitcore-artax repo for information about how to contribute.
 
 ## License
 

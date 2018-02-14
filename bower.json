@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-message-dash",
+  "name": "bitcore-message-artax",
   "main": "./bitcore-message.min.js",
   "version": "1.0.4",
-  "homepage": "https://github.com/dashpay/bitcore-message-dash",
+  "homepage": "https://github.com/yoyaeArtax/bitcore-message-artax",
   "authors": [
     "BitPay"
   ],

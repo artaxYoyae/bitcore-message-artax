@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-message-dash",
+  "name": "bitcore-message-artax",
   "version": "1.0.9",
-  "description": "Dash Messages for Bitcore-Dash",
+  "description": "Artax Messages for Bitcore-Artax",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,20 @@
     "build": "gulp"
   },
   "keywords": [
-    "dash",
-    "bitcore-dash",
+    "artax",
+    "bitcore-artax",
     "message",
     "signing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-message-dash.git"
+    "url": "https://github.com/yoyaeArtax/bitcore-message-artax.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.15.2"
+    "bitcore-lib-artax": "yoyaeArtax/bitcore-lib-artax"
   },
   "devDependencies": {
-    "bitcore-build-dash": "dashpay/bitcore-build-dash",
+    "bitcore-build-artax": "yoyaeArtax/bitcore-build-artax",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
